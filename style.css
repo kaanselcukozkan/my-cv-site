@@ -1,0 +1,1476 @@
+body {
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.content-box-1 {
+    width: 100%;
+    height: 753px;
+    background-image: url(./assets/img/background-image-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:inset 0 0 0 400px rgba(0, 0, 0, 0.9);
+}
+
+
+.content-1 {
+    max-width: 100%;
+    height: 753px;
+    margin: 0 15% 0 15%; 
+}
+
+.header {
+    width: 100%;
+    height: 63px;
+    padding: 10px 0 10px 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    z-index: 1;
+    list-style-type: none;
+    
+}
+
+
+.li1 {
+    width: 12%;
+    height: 63px;   
+     font-weight: bolder;
+     font-size: 18px;
+     text-align: center;
+
+}
+
+
+
+.bar {
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s linear;
+}
+
+.ww:hover {
+    color: green;
+    
+}
+
+.li1-ind {
+    width: 12%;
+    height: 63px;   
+     font-weight: bolder;
+     font-size: 18px;
+     text-align: center;
+    display: none;
+}
+
+.content-2 {
+    width: 100%;
+    height: 375px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    flex-direction: row;
+    
+}
+
+.info{
+    width: 50%;
+    height: 480px;
+   
+}
+
+.name-head {
+    margin:10px 0;
+    color: #FFFFFF;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.job-head {
+    font-size: 26px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+
+.list-style{
+    list-style-type: none; 
+    height: 120px; 
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.li2 {
+    margin:10px 0;
+    float: left;
+}
+
+.icon-color {
+    color:grey;
+}
+
+.icon-color:hover {
+    color: green;
+}
+
+.link-style {
+    text-decoration-line: none;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 14px;
+   margin-left: 10px;
+}
+
+
+
+
+.say-hi {
+    border-radius: 29px 20px 20px 0px;
+    background-color:#0bceaf ;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smedia-icon {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+
+
+
+.size-box {
+    width: 30px;
+    height: 20px;
+  
+}
+
+.icon-size {
+    font-size: 20px!important;
+}
+
+
+.image-box {
+    text-align: center;
+    width: 345px;
+    height: 345px;
+    border-radius: 50%;
+    margin:0 auto 0 auto;   
+    border: 10px solid black;
+    overflow: hidden;
+}
+
+
+
+
+.size-of-image {
+    width: 100%;
+}
+
+
+
+
+.content-box-2 {
+    width: 100%;
+    height: 753px;
+    background-color: #100e17;
+}
+
+
+.big-box {
+    max-width: 100%;
+    height: 753px;
+    margin: 0 15% 0 15%;
+    display: flex;
+ flex-direction: column;
+ flex-wrap: nowrap;
+}
+
+
+.bro-box-1 {
+    width: 100%;
+    height: 377px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+
+.child-box-1 {
+    width: 50%;
+    max-height: 375px;
+    padding:0 10px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.photo-sizer {
+    width: 90%;
+    max-height: 340px;
+}
+
+.child-box-2 {
+    width: 50%;
+    max-height: 375px;
+    padding:0 10px 0 10px;
+}
+
+
+.about-head {
+    font-size: 26px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.about-me {
+    font-size: 14px;
+    margin-bottom:30px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.tag-box {
+    width: 100%;
+    height: 66px;
+   float: left;
+   margin:10px 0 10px 0;
+}
+
+.list-leader {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:0;
+}
+
+
+.li3 {
+    border: 1px solid #0bceaf;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-left: 5px;
+    font-size: 14px;
+    color: white;
+}
+
+.flex {
+    width: 100%;
+    height: 50px;
+}
+
+.down-but {
+    margin-top: 10px;
+    background-color: #0bceaf;
+    cursor: pointer;
+    padding: 8px 30px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: bolder;
+   text-decoration-line: none;
+   color: grey;
+   
+}
+
+
+.bro-box-2 {
+    width: 100%;
+    height: 377px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+
+.whıdo-head {
+    font-size: 32px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    text-align: center;
+    margin:0 0 21px 0;
+}
+
+
+.king-box {
+    width: 100%;
+    height: 230px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: space-between;   
+  justify-content: space-around;
+
+}
+
+.heir-box {
+    width: 28%;
+    height: 180px;
+    background-color: #202026;
+    padding:20px;
+}
+
+.head-2 {
+    font-size: 26px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width:240px) and (max-width:340px) {
+    .content-box-1 {
+        padding: 30px 0 60px 0;
+    }
+
+    .content-1 {
+        margin: 0 5% 0 5%; 
+        
+    }
+    
+    .li1{
+        display: none;
+    }
+
+   
+    .header {
+        display: flex;
+        justify-content:center;
+
+    }
+
+    .li1-ind {
+        display: list-item;
+    }
+
+
+    .content-2 {
+        height: 650px;
+        display: flex;
+        flex-direction: column-reverse;
+       padding:0;
+        
+    }
+  
+    .info{
+        width: 100%;
+        height: 350px;
+        
+    }
+    
+   .name-head {
+       font-size: 36px;
+       text-align: center;
+       margin-top: 20px;
+   }
+    
+   .job-head {
+       font-size: 15px;
+       text-align: center;
+   }
+
+
+   .image-box {
+    width: 230px;
+    height: 230px;
+}
+
+   .say-hi {
+       margin: 0 auto 0 auto;
+   }
+
+
+.list-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    margin-top: 40px;
+}
+
+.smedia-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+
+
+.content-box-2 {
+    height: 1000px;
+    padding:30px 0 30px 0;
+}
+
+.big-box {
+    height: 1000px;
+    margin: 0 5% 0 5%;
+}
+
+
+.bro-box-1 {
+    height: 475px;
+    padding:30px 0 15px 0;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+
+.child-box-1 {
+    width: 100%;
+    height: 475px;
+    padding: 0;
+}
+
+.photo-sizer {
+    width: 100%;
+    height: 200px;
+}
+
+
+.child-box-2 {
+    width: 100%;
+    height: 475px;
+    padding: 0;
+}
+
+.about-head {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.about-me {
+   font-size: 14px;
+   margin-bottom:10px;
+    text-align: center;
+
+}
+
+.tag-box { 
+    height: 60px;
+   float: left;
+   margin:1px 0 1px 0;
+   padding:10px 5px 10px 0;
+   width: 98%;
+
+}
+
+
+.list-leader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.li3 {
+    
+    padding: 2px 8px;
+    border-radius: 4px;
+   margin:2px 5px 2px 0;
+    font-size: 10px;
+    color: white;
+    
+}
+
+
+.flex {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.down-but {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    padding: 2px 8px;
+    text-align: center;
+    border: 1px solid transparent;
+    font-size: 10px;
+   text-decoration-line: none;
+   
+   
+}
+
+
+
+
+
+.bro-box-2 {
+    height: 525px;
+    padding:30px 0 15px 0;
+}
+
+
+.whıdo-head {
+    font-size: 28px;
+}
+
+
+
+
+.king-box {
+    height: 381px;
+    display: flex;
+    flex-direction: column;
+}
+
+.heir-box {
+    width: 100%;
+    height: 127px;
+    padding:0;
+}
+
+
+.head-2 {
+    margin:0;
+    font-size: 20px;
+}
+
+.about-me {
+    font-size: 10px;
+}
+
+
+}
+
+
+
+
+
+
+
+@media screen and (min-width:340px) and (max-width:480px) {
+    .content-box-1 { 
+        padding: 30px 0 60px 0;
+        height: 830px;
+    }
+
+    .content-1 {
+        margin: 0 5% 0 5%; 
+        
+        height: 830px;
+    }
+
+ 
+    .li1 {
+        display: none;
+    }
+
+   
+    .header {
+        display: flex;
+        justify-content:center;
+
+    }
+
+    .li1-ind {
+        display: list-item;
+    }
+
+  .content-2 {
+      height: 700px;
+      display: flex;
+      flex-direction: column-reverse;
+     padding:0;
+  }
+
+  .info{
+    width: 100%;
+    height: 360px;
+    
+}
+
+.name-head {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+ 
+.job-head {
+    font-size: 20px;
+    text-align: center;
+}
+
+.list-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    
+}
+
+
+.image-box {
+    width: 300px;
+    height: 300px;
+}
+
+.say-hi {
+    margin: 0 auto 0 auto;
+}
+
+.smedia-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+
+.content-box-2 {
+    height: 1000px;
+    padding:30px 0 30px 0;
+}
+
+
+.big-box {
+    height: 1000px;
+    margin: 0 5% 0 5%;
+}
+
+
+.bro-box-1 {
+    height: 450px;
+    padding:30px 0 15px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.child-box-1 {
+    width: 100%;
+    height: 450px;
+    padding: 0;
+}
+
+.photo-sizer {
+    width: 100%;
+    height: 200px;
+}
+
+
+
+
+.child-box-2 {
+    width: 100%;
+    height: 450px;
+    padding: 0;
+
+}
+
+.about-head {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.about-me {
+   font-size: 14px;
+   margin-bottom:10px;
+    text-align: center;
+
+}
+
+.tag-box { 
+    height: 55px;
+   float: left;
+   margin:1px 0 1px 0;
+   padding:10px 5px 10px 0;
+   width: 98.5%;
+}
+
+
+.list-leader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.li3 {
+    
+    padding: 2px 8px;
+    border-radius: 4px;
+   margin:2px 5px 2px 0;
+    font-size: 10px;
+    color: white;
+    
+}
+
+
+.flex {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.down-but {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    padding: 2px 8px;
+    text-align: center;
+    border: 1px solid transparent;
+    font-size: 10px;
+   text-decoration-line: none;
+   
+   
+}
+
+
+
+.bro-box-2 {
+    height: 550px;
+    padding:30px 0 15px 0;
+}
+
+.whıdo-head {
+    font-size: 28px;
+}
+
+.king-box {
+    height: 381px;
+    display: flex;
+    flex-direction: column;
+}
+
+.heir-box {
+    width: 100%;
+    height: 127px;
+    padding:0;
+    
+}
+
+.head-2 {
+    margin:0;
+    font-size: 20px;
+}
+
+.about-me {
+    font-size: 14px;
+}
+
+
+
+
+
+}
+
+@media screen and (min-width:480px) and (max-width:748px) {
+    .content-box-1 { 
+        padding: 30px 0 60px 0;
+
+    }
+
+    .content-1 {
+        margin: 0 5% 0 5%; 
+        
+    }
+
+ 
+    .li1 {
+        display: none;
+    }
+
+   
+    .header {
+        display: flex;
+        justify-content:center;
+
+    }
+
+    .li1-ind {
+        display: list-item;
+    }
+
+    .content-2 {
+        height: 650px;
+        display: flex;
+      flex-direction: column-reverse;
+     padding:0;
+    }
+  
+    .info{
+        width: 100%;
+        height: 360px;
+        
+    }
+    
+    .name-head {
+        font-size: 32px;
+        text-align: center;
+        margin-top: 20px;
+    
+    }
+     
+    .job-head {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .list-style {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 80px;
+    }
+    
+
+    .image-box {
+        width: 280px;
+        height: 280px;
+    }
+    
+    .say-hi {
+        margin: 0 auto 0 auto;
+    }
+ 
+    .smedia-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+
+
+    .content-box-2 {
+        height: 1000px;
+        padding:30px 0 30px 0;
+    }
+    
+    
+    .big-box {
+        height: 1000px;
+        margin: 0 5% 0 5%;
+    }
+    
+
+    .bro-box-1 {
+        height: 450px;
+        padding:30px 0 15px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+
+    .child-box-1 {
+        width: 100%;
+        height: 450px;
+        padding: 0;
+        
+    }
+    
+    .photo-sizer {
+        width: 90%;
+        height: 200px;
+    }
+
+
+    
+    .child-box-2 {
+        width: 100%;
+        height: 450px;
+        padding: 0;
+    }
+    
+    .about-head {
+        font-size: 26px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    
+    .about-me {
+       font-size: 14px;
+       margin-bottom:10px;
+        text-align: center;
+    
+    }
+
+
+    .tag-box { 
+        height: 65px;
+       float: left;
+       margin:1px 0 1px 0;
+    }
+    
+    .flex {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .down-but {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        cursor: pointer;
+        padding: 4px 12px;
+        text-align: center;
+        border: 1px solid transparent;
+        font-size: 10px;
+       text-decoration-line: none;
+       
+       
+    }
+    
+
+
+    .bro-box-2 {
+        height: 550px;
+        padding:30px 0 15px 0;
+    }
+    
+    .whıdo-head {
+        font-size: 28px;
+    }
+    
+    .king-box {
+        height: 381px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .heir-box {
+        width: 100%;
+        height: 127px;
+        padding:0;
+        
+    }
+    
+    .head-2 {
+        margin:0;
+        font-size: 22px;
+    }
+    
+    .about-me {
+        font-size: 14px;
+    }
+    
+
+}
+
+@media screen and (min-width:748px) and (max-width:1004px) {
+    .content-box-1 { 
+        padding: 30px 0 60px 0;
+        height: 1350px;
+        box-shadow:inset 0 0 0 600px rgba(0, 0, 0, 0.9);
+
+    }
+
+    .content-1 {
+        margin: 0 5% 0 5%; 
+        
+        height: 1350px;
+    }
+
+
+ 
+    .li1 {
+        display: none;
+    }
+
+   
+    .header {
+        display: flex;
+        justify-content:center;
+
+    }
+
+    .li1-ind {
+        display: list-item;
+        font-size: 30px;
+    }
+
+    .content-2 {
+        height: 1100px;
+        display: flex;
+        flex-direction: column-reverse;
+       padding:0;
+    }
+  
+    .info{
+        width: 100%;
+        height: 700px;
+      
+    }
+    
+    .name-head {
+        font-size: 42px;
+        text-align: center;
+        margin-top: 20px;
+    
+    }
+     
+    .job-head {
+        font-size: 26px;
+        text-align: center;
+    }
+    
+    .list-style {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 300px;
+        font-size: 26px;
+    }
+    
+    .link-style {
+        font-size: 26px;
+    }
+
+    .image-box {
+        width: 450px;
+        height: 450px;
+    }
+    
+    .say-hi {
+        margin: 0 auto 0 auto;
+    }
+ 
+    .smedia-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .size-box {
+        width: 70px;
+        height: 30px;
+      
+    }
+
+
+
+    .icon-size {
+        font-size: 30px!important;
+    }
+
+
+
+    .content-box-2 {
+        height: 1000px;
+        padding:30px 0 30px 0;
+    }
+    
+    .big-box {
+        height: 1000px;
+        margin: 0 5% 0 5%;
+    }
+    
+
+    .bro-box-1 {
+        height: 450px;
+        padding:30px 0 15px 0;
+    }
+    
+
+    .child-box-1 {
+        width: 50%;
+        height: 450px;
+        padding: 0;
+        
+    }
+    
+    .photo-sizer {
+        width: 85%;
+        height: 320px;
+    }
+
+
+    
+    .child-box-2 {
+        width: 50%;
+        height: 450px;
+        padding: 0;
+     
+    }
+    
+ 
+    .about-me {
+        font-size: 18px;
+    }
+
+
+    .tag-box { 
+        height: 110px;
+       float: left;
+       margin:1px 0 1px 0;
+       
+    }
+    
+
+    .flex {
+        height: 38px;   
+    }
+    
+
+    .bro-box-2 {
+        height: 550px;
+        padding:30px 0 15px 0;
+       
+    }
+    
+    .king-box {
+        height: 280px;
+        margin-top: 80px;
+    }
+
+
+    .heir-box {
+        width: 25%;
+        max-height: 230px;
+        padding: 20px;
+        background-color: #202026;
+    }
+
+    .head-2 {
+        margin:0;
+        font-size: 22px;
+    }
+    
+    .about-me {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (min-width:1004px) and (max-width:1260px) {
+    .content-box-1 { 
+        padding: 60px 0 60px 0;
+        box-shadow:inset 0 0 0 600px rgba(0, 0, 0, 0.9);
+
+    }
+
+    .content-1 {
+        margin: 0 5% 0 5%;
+        
+    }
+
+
+    .content-2 {
+        height: 650px;
+        display: flex;
+        flex-direction: column-reverse;
+       padding:0;
+    }
+  
+    .info{
+        width: 100%;
+        height: 480px;
+        
+    }
+
+    .name-head {
+        font-size: 32px;
+        text-align: center;
+        margin-top: 20px;
+    
+    }
+     
+    .job-head {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+
+    .list-style {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 150px;
+    }
+    
+
+    .image-box {
+        width: 280px;
+        height: 280px;
+    }
+
+
+    .say-hi {
+        margin: 0 auto 0 auto;
+    }
+ 
+    .smedia-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .image-box {
+        width: 230px;
+        height: 230px;
+    }
+    
+    .content-box-2 {
+        height: 1000px;
+        padding:30px 0 30px 0;
+    }
+    
+    .big-box {
+        height: 1000px;
+        margin: 0 5% 0 5%;
+    }
+    
+    .bro-box-1 {
+        height: 450px;
+        padding:30px 0 15px 0;
+    }
+    
+
+    .child-box-1 {
+        width: 50%;
+        height: 450px;
+        padding: 0;
+       
+    }
+    
+    .photo-sizer {
+        width: 85%;
+        height: 320px;
+    }
+
+
+    
+    .child-box-2 {
+        width: 50%;
+        height: 450px;
+        padding: 0;
+        
+    }
+    
+
+    .tag-box { 
+        height: 130px;
+       float: left;
+       margin:1px 0 1px 0;
+      
+    }
+
+
+
+
+    .bro-box-2 {
+        height: 550px;
+        padding:30px 0 15px 0;
+    }
+    
+    
+    .king-box {
+        height: 450px;
+       
+    }
+    
+    .heir-box {
+        height: 250px;
+        padding:0;
+    }
+    
+    .head-2 {
+        margin:0;
+        font-size: 26px;
+    }
+    
+    .about-me {
+        font-size: 18px;
+    }
+
+
+
+}
+
+@media screen and (min-width:1260px) and (max-width:1300px) {
+    .content-box-1 { 
+        padding: 60px 0 60px 0;
+        box-shadow:inset 0 0 0 600px rgba(0, 0, 0, 0.9);
+
+    }
+
+    .content-1 {
+        margin: 0 5% 0 5%; 
+        
+    }
+
+    .content-2 {
+        height: 500px;
+        display: flex;
+        flex-direction: column-reverse;
+       padding:0;
+    }
+  
+    .info{
+        padding-top: 30px;
+        width: 100%;
+        height: 400px;
+             
+    }
+
+    .name-head {
+        font-size: 32px;
+        text-align: center;
+        margin-top: 20px;
+    
+    }
+     
+    .job-head {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .list-style {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 150px;
+    }
+    
+
+
+
+    .image-box {
+        float: none;
+        text-align: center;
+        width: 100%;
+        height: 250px;
+    }
+    
+ 
+    
+    .say-hi {
+        margin: 0 auto 0 auto;
+    }
+ 
+ 
+    .smedia-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .image-box {
+        width: 210px;
+        height: 210px;
+    }
+
+    .content-box-2 {
+        height: 1150px;
+        padding:30px 0 30px 0;
+    }
+    
+    .big-box {
+        height: 1150px;
+        margin: 0 5% 0 5%;
+    }
+    
+
+    .bro-box-1 {
+        height: 500px;
+        padding:30px 0 15px 0;
+    }
+ 
+    
+    .child-box-1 {
+        width: 50%;
+        height: 450px;
+        padding: 0;
+    }
+    
+    .photo-sizer {
+        width: 85%;
+        height: 320px;
+    }
+
+
+    
+    .child-box-2 {
+        width: 50%;
+        height: 450px;
+        padding: 0;
+       
+    }
+    
+    .about-me {
+        font-size: 18px;
+    }
+
+    .tag-box { 
+        height: 130px;
+       float: left;
+       margin:1px 0 1px 0;
+      
+    }
+
+   
+    .bro-box-2 {
+        height: 650px;
+        padding:30px 0 15px 0;
+    }
+   
+    .king-box {
+        height: 450px;
+       
+    }
+    
+    .heir-box {
+        margin-top: 70px;
+        height: 300px;
+    }
+   
+    .head-2 {
+        margin:0;
+        font-size: 26px;
+    }
+    
+    .about-me {
+        font-size: 19px;
+    }
+
+}
