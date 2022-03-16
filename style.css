@@ -375,6 +375,139 @@ body {
 }
 
 
+
+.content-box-3 {
+    width: 100%;
+    height: 600px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url(./assets/img/plexus1.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:inset 0 0 0 400px rgba(18, 19, 66, 0.9);
+
+}
+
+
+.heir-box-2 {
+    max-width: 100%;
+    height: 350px;
+    margin: 0 15% 0 15%;
+}
+
+.heir-box-3 {
+    max-width: 100%;
+    height: 250px;
+    margin: 0 15% 0 15%;
+
+}
+
+
+.head-3 {
+    font-size: 32px;
+    color: #FFFFFF;
+    font-weight: bolder;
+    margin-top: 20px;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.straight-line {
+    width: 15%;
+    border: 0; border-top: 1px solid #0bceaf;
+}
+
+.work-situation {
+    width: 100%;
+    height: 30px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.margin-color {
+    color: #0bceaf;
+    margin-right: 10px;
+}
+
+
+.github-project-list {
+    max-width: 100%;
+    height: 60px;    
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0;
+}
+
+.github-project {
+    width: 22%;
+    max-height: 60px;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+}
+
+.size-pname {
+    text-decoration-line: none;
+    font-size: 20px;
+    font-weight: bolder;
+    transition: 0.3s linear;
+    cursor: pointer;
+    color: white;
+}
+
+.size-pname:hover {
+   color: grey;
+}
+
+
+.more-content-button {
+   width: 100%;
+  height: 60px;
+   margin-top: 30px;
+  text-align: center;
+}
+
+.content-button {
+    font-size: 16px ;
+    background: #0bceaf;
+    border: 1px solid #0bceaf;
+    border-radius: 30px;
+    padding: 12px 32px;
+    font-weight: 700;
+    height: 60px;
+    width: 25%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    transition:0.3s linear;
+    cursor: pointer;
+}
+
+.content-button:hover {
+    color: grey;
+}
+
+.courses {
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    letter-spacing: 1px;
+}
+
+
 @media screen and (min-width:240px) and (max-width:340px) {
     .content-box-1 {
         padding: 30px 0 60px 0;
@@ -617,10 +750,14 @@ body {
  }
 
 
-
-
-
-
+.heir-box-2 {
+    margin: 0 5% 0 5%;
+}
+ 
+.heir-box-3 {
+    margin: 0 5% 0 5%;
+}
+ 
 
 
 }
@@ -867,7 +1004,14 @@ body {
  }
 
 
-
+ .heir-box-2 {
+    margin: 0 5% 0 5%;
+}
+ 
+.heir-box-3 {
+    margin: 0 5% 0 5%;
+}
+ 
 
 }
 
@@ -1052,7 +1196,10 @@ body {
         width: 100%;
         height: 127px;
         padding:0;
-        
+        display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    align-items: center;   
     }
     
     .head-2 {
@@ -1064,6 +1211,14 @@ body {
         font-size: 14px;
     }
     
+    .heir-box-2 {
+        margin: 0 5% 0 5%;
+    }
+     
+    .heir-box-3 {
+        margin: 0 5% 0 5%;
+    }
+     
 
 }
 
@@ -1207,7 +1362,7 @@ body {
     
  
     .about-me {
-        font-size: 18px;
+        font-size: 16px;
     }
 
 
@@ -1245,13 +1400,18 @@ body {
 
     .head-2 {
         margin:0;
-        font-size: 22px;
+        font-size: 16px;
     }
     
-    .about-me {
-        font-size: 14px;
+    .heir-box-2 {
+        margin: 0 5% 0 5%;
     }
-
+     
+    .heir-box-3 {
+        margin: 0 5% 0 5%;
+    }
+     
+    
 }
 
 @media screen and (min-width:1004px) and (max-width:1260px) {
@@ -1390,14 +1550,22 @@ body {
     
     .head-2 {
         margin:0;
-        font-size: 24px;
+        font-size: 20px;
     }
     
     .about-me {
         font-size: 16px;
     }
 
-
+    .heir-box-2 {
+        margin: 0 5% 0 5%;
+    }
+     
+    .heir-box-3 {
+        margin: 0 5% 0 5%;
+    }
+     
+    
 
 }
 
@@ -1548,5 +1716,15 @@ body {
     .about-me {
         font-size: 19px;
     }
+
+    .heir-box-2 {
+        margin: 0 5% 0 5%;
+    }
+     
+    .heir-box-3 {
+        margin: 0 5% 0 5%;
+    }
+     
+
 
 }
